@@ -1,0 +1,72 @@
+
+/* Elements Size */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+    font-family: 'PT Sans', sans-serif;}
+
+body {
+    background-color: #1f1f1f;
+    padding: 10%;
+    height: 100vh;
+}
+
+.container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212;
+    border-radius: .5rem;
+}
+
+
+.navbar {
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: .3rem;
+}
+
+.navbar>nav {
+    background-color: black;
+    padding: 1rem;
+    border-radius: .3rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.12);
+}
+
+.navbar a {
+    margin: .5rem;
+    padding: .5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.navbar a:hover {
+    padding: 1.2rem 1.3rem;
+    background-color: #1f1f1f;
+    border-radius: .3rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .4);
+    transition: .2s;
+    cursor: pointer;
+}
+
+/* light -v */
+.light nav {
+    background-color: #ffffff;
+}
+
+.light a {
+    color: #000000;
+}
+
+.light a:hover {
+    background-color: #ffffff;
+
+}
