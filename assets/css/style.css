@@ -22,7 +22,7 @@ body {
     border-radius: .5rem;
 }
 
-
+/* The Buttons */
 .navbar {
     margin: 2rem;
     display: flex;
@@ -47,7 +47,7 @@ body {
 }
 
 .navbar a:hover {
-    padding: 1.2rem 1.3rem;
+    padding: 1.2rem;
     background-color: #1f1f1f;
     border-radius: .3rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, .4);
